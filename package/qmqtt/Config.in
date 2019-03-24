@@ -1,0 +1,4 @@
+config BR2_PACKAGE_QMQTT
+	bool "QMQTT lib"
+	help
+	  QMQTT lib

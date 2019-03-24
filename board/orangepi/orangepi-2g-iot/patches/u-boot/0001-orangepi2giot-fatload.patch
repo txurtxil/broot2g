@@ -1,0 +1,22 @@
+From 9a30659ed1c5056fa53843fbb4ef2e55694dd238 Mon Sep 17 00:00:00 2001
+From: Leo Soares <leojrfs@gmail.com>
+Date: Mon, 12 Jun 2017 21:57:22 +0100
+Subject: [PATCH] load from the first fat partition instead of ext2
+
+---
+ include/configs/rda_config_defaults.h | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/include/configs/rda_config_defaults.h b/include/configs/rda_config_defaults.h
+index 84501bd..f670207 100644
+--- a/include/configs/rda_config_defaults.h
++++ b/include/configs/rda_config_defaults.h
+@@ -280,7 +280,7 @@
+ #define CONFIG_BOOTCOMMAND		\
+ 	"mux_config; "		\
+ 	"mmc dev 0; "		\
+-	"ext2load mmc 0:1 ${script_addr} boot.scr && source ${script_addr};" \
++	"fatload mmc 0:1 ${script_addr} boot.scr && source ${script_addr};" \
+ 	"echo Running boot script failed;"
+
+ #endif /* !CONFIG_SPL_BUILD */

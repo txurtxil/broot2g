@@ -1,0 +1,22 @@
+ABORT           BUSY
+ABORT           VOICE
+ABORT           "NO CARRIER"
+ABORT           "NO DIALTONE"
+ABORT           "NO DIAL TONE"
+ABORT           "NO ANSWER"
+ABORT           "DELAYED"
+ABORT           "ERROR"
+ 
+ABORT           "+CGATT: 0"
+ 
+""              AT
+TIMEOUT         12
+OK              ATH
+OK              ATE1
+#OK		AT+COPS=0 
+OK              AT+CFUN=1
+OK		AT+CGATT=1
+OK              AT+CGDCONT=1,"IP","internet.mts.ru","",0,0
+OK		AT+CGACT=1,1
+OK              ATD*99***1#
+CONNECT         ""

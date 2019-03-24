@@ -1,0 +1,15 @@
+#!/bin/sh
+#
+# Start the wifi....
+#
+
+# MODEM
+#modprobe ppp_generic
+#modprobe ppp_async
+
+# WIFI
+#modprobe rdawfmac
+#wpa_supplicant -B -D wext -i wlan0 -c /etc/wpa_supplicant.conf
+
+exit $?
+

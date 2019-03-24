@@ -1,0 +1,4 @@
+config BR2_PACKAGE_TELEGRAMM_BOT
+	bool "telegramm-bot"
+	help
+	  Telegramm bot lib
