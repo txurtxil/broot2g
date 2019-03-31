@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Buildroot 2017.08.1 Configuration
+# Buildroot 2017.08.1-gacc09bf-dirty Configuration
 #
 BR2_HAVE_DOT_CONFIG=y
 BR2_HOST_GCC_AT_LEAST_4_5=y
@@ -958,7 +958,7 @@ BR2_PACKAGE_QMQTT=y
 # eudev needs eudev /dev management
 #
 # BR2_PACKAGE_EVEMU is not set
-# BR2_PACKAGE_EVTEST is not set
+BR2_PACKAGE_EVTEST=y
 # BR2_PACKAGE_FAN_CTRL is not set
 BR2_PACKAGE_FBTFT=y
 # BR2_PACKAGE_FCONFIG is not set
@@ -974,8 +974,8 @@ BR2_PACKAGE_FBTFT=y
 # BR2_PACKAGE_HDPARM is not set
 # BR2_PACKAGE_HWDATA is not set
 # BR2_PACKAGE_HWLOC is not set
-# BR2_PACKAGE_I2C_TOOLS is not set
-# BR2_PACKAGE_INPUT_EVENT_DAEMON is not set
+BR2_PACKAGE_I2C_TOOLS=y
+BR2_PACKAGE_INPUT_EVENT_DAEMON=y
 # BR2_PACKAGE_IOSTAT is not set
 # BR2_PACKAGE_IPMITOOL is not set
 # BR2_PACKAGE_IQVLINUX is not set
