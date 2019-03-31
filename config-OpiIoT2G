@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Buildroot 2017.08.1-gacc09bf-dirty Configuration
+# Buildroot 2017.08.1-ge3cd709 Configuration
 #
 BR2_HAVE_DOT_CONFIG=y
 BR2_HOST_GCC_AT_LEAST_4_5=y
@@ -2003,7 +2003,7 @@ BR2_PACKAGE_NTP_NTPD=y
 # BR2_PACKAGE_OLSR is not set
 # BR2_PACKAGE_OPEN_PLC_UTILS is not set
 # BR2_PACKAGE_OPENOBEX is not set
-BR2_PACKAGE_OPENSSH=y
+# BR2_PACKAGE_OPENSSH is not set
 # BR2_PACKAGE_OPENSWAN is not set
 # BR2_PACKAGE_OPENVPN is not set
 # BR2_PACKAGE_P910ND is not set
