@@ -1,3 +1,21 @@
+
+Build root preparado y listo para compilar orange Pi IoT-2G
+
+-tmux, mc y htop
+-python, Qt5
+
+Para construi la imagen:
+
+1. git clone https://github.com/txurtxil/broot2g
+2. cd broot2g
+3. make
+
+nota:  para cambiar parametros buildroot:   make menuconfig
+nota2: para cambiar parametros del kernel:  make linux-menuconfig
+
+
+
+
 Buildroot is a simple, efficient and easy-to-use tool to generate embedded
 Linux systems through cross-compilation.
 
