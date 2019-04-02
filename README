@@ -1,10 +1,10 @@
 
-Build root preparado y listo para compilar orange Pi IoT-2G
+Buildiroot preparado y listo para compilar orange Pi IoT-2G
 
 -tmux, mc y htop
 -python, Qt5
 
-Para construi la imagen:
+Para construir la imagen:
 
 1. git clone https://github.com/txurtxil/broot2g
 2. cd broot2g
