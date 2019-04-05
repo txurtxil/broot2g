@@ -1,17 +1,19 @@
 
-Buildroot preparado y listo para compilar orange Pi IoT-2G
+Buildroot preparado y listo para compilar Orange Pi IoT-2G y Raspberry Pi Zero W
 
 -tmux, mc y htop
 -python, Qt5
 
 Para construir la imagen:
-
 1. git clone https://github.com/txurtxil/broot2g
 2. cd broot2g
-3. make
+3. renombar a .config la placa que queremos
+   -Orange pi Iot 2G:  mv config-OpiIoT2G .config
+   -Raspbery Pi Zerow: mv config-RaspiZeroW .config   
+4. make
 
-nota:  para cambiar parametros buildroot:   make menuconfig
-nota2: para cambiar parametros del kernel:  make linux-menuconfig
+nota:  para cambiar parametros de buildroot:   make menuconfig
+nota2: para cambiar parametros del kernel:     make linux-menuconfig
 
 
 
